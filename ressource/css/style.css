@@ -1,0 +1,277 @@
+﻿
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+body {
+          font-family:'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+
+.text-center {
+    text-align:center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+.alg-right-pad {
+    float:right;
+    padding-right:20px;
+}
+a:hover {
+    text-decoration:none;
+}
+
+/*=======================================
+  NAVBAR ADJUSTMENTS
+==================================================*/
+.navbar-brand {
+font-size: 25px;
+padding: 15px 80px 15px 60px;
+}
+.navbar-default .navbar-brand {
+color: #000000;
+}
+.navbar-default {
+background-color: #000000;
+border-color: #000000;
+}
+.navbar {
+ border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a ,
+.navbar-default .navbar-nav > li > a:hover ,
+.navbar-default .navbar-nav > li > a:visited,
+.navbar-default .navbar-nav > li > a:active ,
+.navbar-default .navbar-nav > li > a:link{
+  cursor: pointer;
+  color: #FFF;
+}
+
+.navbar-default .navbar-brand {
+color: #FFFFFF;
+}
+.navbar-default .navbar-brand:hover {
+color: #FFFFFF;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+color: #050505;
+background-color: #FFFFFF;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+color: white;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+color: white;
+}
+/*=======================================
+  BOOTSTRAP ADJUSTMENTS
+==================================================*/
+.row {
+    margin-bottom:10px;
+}
+.btn {
+    margin-bottom:5px;
+}
+/*=======================================
+  INDEX PAGE
+==================================================*/
+
+.box-border {
+    border:1px solid #e1e1e1;
+}
+
+.product-box h3>a,.product-box h3>a:hover,.product-box h3>a:focus {
+    color:#000;
+    text-decoration:none;
+}
+
+.offer-box {
+background-color: #6A75F0;
+border: 1px solid #096FC0;
+color: #fff;
+font-weight: 900;
+font-size:16px;
+}
+    .offer-box a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .offer-box a:hover {
+        color:#000;
+    }
+.list-group a {
+
+    font-size:14px;
+    font-weight:900;
+    color:#808080;
+}
+.list-group a:hover {
+     color:#000;
+    text-decoration:none;
+}
+.offer-colors {
+   background-color: #B05FDD;
+border: 1px solid #A228F3;
+}
+
+.download-app-box {
+background-color: #337ab7;
+border: 1px solid #337ab7;
+padding:30px;
+line-height:40px;
+font-size:25px;
+font-weight:900;
+color:#fff;
+}
+/*=======================================
+  panier and user
+==================================================*/
+.friend{
+  background:rgba(0,0,0,.1);
+  padding: 6px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+}
+.friend a{
+  color: black;
+  font-weight: bold;
+}
+.friend img{
+  border-radius: 50%;
+}
+.sender,.reciever{
+  background: #44BAF2;
+  padding: 6px 15px;
+  display: inline-block;
+}
+.reciever{
+  background: #CACDCF;
+}
+.sender+p,.reciever+p{
+  font-size: 11px;
+}
+.send{
+  background: lightgray;
+  padding: 2px;
+}
+.panier,.user{
+  color: black;
+  padding:10px;
+  padding-left: 50px;
+  background: url(../img/Cart.png) white no-repeat 2% 40% ;
+}
+.user{
+  margin-top: 15px;
+  padding: 6px;
+  background: none;
+  background-color: white;
+}
+.user>a:last-of-type{
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  position:relative;
+  top: 1.3px;
+  left:7px;
+  background:#E8E8E8;
+  padding:11px;
+}
+
+.section{
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 4px;
+}
+.section:nth-child(2){
+  border-left:none;
+}
+.border_bottom{
+  padding: 20px 5px;
+  border-bottom: 1px solid rgba(0,0,0,.5);
+}
+.active{
+  color:#337ab7;
+}
+.btnQt{
+  display: flex;
+  justify-content:space-around;
+}
+.btnQt span{
+  cursor: pointer;
+}
+table.table td{
+  vertical-align:center;
+}
+.cookie{
+  text-align: center;
+  background:rgba(0,0,0,.1);
+  padding:10px 20px;
+}
+/*=======================================
+  SLIDER main-style.css Changes
+==================================================*/
+.mi-slider {
+margin-top: 0px;
+}
+
+.offer-text
+{
+position: absolute;
+color: #FFF;
+padding: 14px 16px 12px 16px;
+margin-top: 10px;
+background-color:#18b424;
+
+}
+.offer-text2
+{
+position: absolute;
+color: #FFF;
+padding: 14px 16px 12px 16px;
+margin-top: 10px;
+background-color:#EB0429;
+
+}
+/*=======================================
+  FOOTER SECTION
+==================================================*/
+.footer-box {
+    background-color:#F5F5F5;
+    padding:20px 50px 20px 50px;
+
+
+}
+.small-box {
+    font-size:10px;
+}
+
+.footer-box a {
+    color:#808080;
+    text-decoration:none;
+}
+.footer-box a:hover {
+    color:#000;
+}
+.pad-botom {
+    padding-bottom:30px;
+}
+.footer-box p {
+    padding-top:15px;
+    padding-bottom:15px;
+    line-height:25px;
+}
+.social-box a{
+     color:#333436;
+    text-decoration:none;
+}
+
+.end-box {
+    padding:20px;
+     color:#fff;
+     background-color:#000;
+     font-size:14px;
+}
